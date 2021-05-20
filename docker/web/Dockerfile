@@ -10,4 +10,4 @@ COPY ./start.sh /scripts/start.sh
 RUN chmod +x /scripts/*
 
 #初期実行
-#ENTRYPOINT [ "/scripts/start.sh" ]
+ENTRYPOINT [ "/scripts/start.sh" ]
