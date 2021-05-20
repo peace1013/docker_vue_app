@@ -9,7 +9,7 @@ services:
             context: ./docker/web
         container_name: web
         ports:
-            - "8000:8080"
+            - "8080:8080"
         volumes:
             - ./web:/app/
             - vue-cli-node-volume:/app/node_modules
